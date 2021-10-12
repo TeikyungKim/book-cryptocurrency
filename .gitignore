@@ -1,0 +1,15 @@
+.idea/.gitignore
+.idea/book-cryptocurrency.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml
+ch04/ohlc-2.xlsx
+ch06/bithumb.txt
+ch07/dd.xlsx
+ch07/larry_ma.xlsx
+ch10/bithumb.txt
+ch10/__pycache__/chart.cpython-37.pyc
+ch10/__pycache__/orderbook.cpython-37.pyc
+ch10/__pycache__/overview.cpython-37.pyc
+ch10/__pycache__/volatility.cpython-37.pyc
