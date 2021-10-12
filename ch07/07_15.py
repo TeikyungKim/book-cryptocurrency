@@ -4,7 +4,7 @@ import numpy as np
 
 def get_hpr(ticker):
     df = pybithumb.get_ohlcv(ticker)
-    df = df['2018']
+    # df = df['2018']
 
     df['ma5'] = df['close'].rolling(window=5).mean().shift(1)
     df['range'] = (df['high'] - df['low']) * 0.5

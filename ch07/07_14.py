@@ -2,7 +2,7 @@ import pybithumb
 import numpy as np
 
 df = pybithumb.get_ohlcv("BTC")
-
+# df = df['2020']
 df['ma5'] = df['close'].rolling(window=5).mean().shift(1)
 df['range'] = (df['high'] - df['low']) * 0.5
 df['target'] = df['open'] + df['range'].shift(1)
